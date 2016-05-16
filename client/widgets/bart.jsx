@@ -37,7 +37,7 @@ class Bart extends React.Component {
   }
 
   getClosestStation() {
-    let url = '/bart'; console.log("this.props", this.props);
+    let url = '/bart';
     let dataToSend = {
       latLng: this.state.locationTrue
     };
